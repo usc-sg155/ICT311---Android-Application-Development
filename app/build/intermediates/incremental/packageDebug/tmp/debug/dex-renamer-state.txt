@@ -1,0 +1,4 @@
+#Thu Oct 03 22:08:14 AEST 2019
+base.0=/Users/sandeep/MyCheckIns/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

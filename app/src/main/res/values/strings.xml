@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MyCheckIns</string>
+    <string name="title">Title</string>
+    <string name="place">Place</string>
+    <string name="detail">Details</string>
+    <string name="date">Date</string>
+    <string name="location">Location</string>
+    <string name="GPSAlertDialogTitle">GPS Alert</string>
+    <string name="GPSAlertDialogMessage">GPS is not available</string>
+    <string name="action_settings">Settings</string>
+    <string name="cancel">Cancel</string>
+    <string-array name="titles">
+        <item>peach</item>
+        <item>tomato</item>
+        <item>squash</item>
+    </string-array>
+
+    <string-array name="dates">
+        <item>2019-08-08 16:34</item>
+        <item>2019-08-01 16:54</item>
+        <item>2019-08-04 12:27</item>
+    </string-array>
+
+    <string-array name="places">
+        <item>Fresh peaches from UK</item>
+        <item>Fresh tomato from Canada</item>
+        <item>Fresh squash from Germany</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>
