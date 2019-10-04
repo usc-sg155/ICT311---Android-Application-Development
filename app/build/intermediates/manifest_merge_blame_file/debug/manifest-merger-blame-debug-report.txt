@@ -76,97 +76,96 @@
 42-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:33:9-54
 43        android:supportsRtl="true"
 43-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:34:9-35
-44        android:testOnly="true"
-45        android:theme="@style/AppTheme" >
-45-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:35:9-40
-46
-47        <!--
-48             The API key for Google Maps-based APIs is defined as a string resource.
-49             (See the file "res/values/google_maps_api.xml").
-50             Note that the API key is linked to the encryption key used to sign the APK.
-51             You need a different API key for each encryption key, including the release key that is used to
-52             sign the APK for publishing.
-53             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-54        -->
-55        <meta-data
-55-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:46:9-48:55
-56            android:name="com.google.android.geo.API_KEY"
-56-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:47:13-58
-57            android:value="@string/google_maps_key" />
-57-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:48:13-52
-58
-59        <activity android:name="com.example.mycheckins.WebViewActivity" />
-59-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:50:9-53
-59-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:50:19-50
-60        <activity android:name="com.example.mycheckins.MainActivity" >
-60-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:51:9-57:20
-60-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:51:19-47
-61            <intent-filter>
-61-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:52:13-56:29
-62                <action android:name="android.intent.action.MAIN" />
-62-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:53:17-69
-62-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:53:25-66
-63
-64                <category android:name="android.intent.category.LAUNCHER" />
-64-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:55:17-77
-64-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:55:27-74
-65            </intent-filter>
-66        </activity>
-67        <activity
-67-->[com.google.android.gms:play-services-auth:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/b16bf037f33c6d17b04da60b79051772/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
-68            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-68-->[com.google.android.gms:play-services-auth:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/b16bf037f33c6d17b04da60b79051772/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
-69            android:excludeFromRecents="true"
-69-->[com.google.android.gms:play-services-auth:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/b16bf037f33c6d17b04da60b79051772/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
-70            android:exported="false"
-70-->[com.google.android.gms:play-services-auth:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/b16bf037f33c6d17b04da60b79051772/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
-71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-71-->[com.google.android.gms:play-services-auth:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/b16bf037f33c6d17b04da60b79051772/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
-72        <!--
-73            Service handling Google Sign-In user revocation. For apps that do not integrate with
-74            Google Sign-In, this service will never be started.
-75        -->
-76        <service
-76-->[com.google.android.gms:play-services-auth:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/b16bf037f33c6d17b04da60b79051772/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
-77            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-77-->[com.google.android.gms:play-services-auth:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/b16bf037f33c6d17b04da60b79051772/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
-78            android:exported="true"
-78-->[com.google.android.gms:play-services-auth:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/b16bf037f33c6d17b04da60b79051772/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
-79            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
-79-->[com.google.android.gms:play-services-auth:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/b16bf037f33c6d17b04da60b79051772/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
-80        <uses-library
-80-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/978cb500d184186a368a14234d4eb010/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
-81            android:name="org.apache.http.legacy"
-81-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/978cb500d184186a368a14234d4eb010/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
-82            android:required="false" />
-82-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/978cb500d184186a368a14234d4eb010/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
-83
-84        <activity
-84-->[com.google.android.gms:play-services-base:17.1.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/f931fb65b7690408bf5b0de860a36b26/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-85-->[com.google.android.gms:play-services-base:17.1.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/f931fb65b7690408bf5b0de860a36b26/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-86            android:exported="false"
-86-->[com.google.android.gms:play-services-base:17.1.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/f931fb65b7690408bf5b0de860a36b26/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-87-->[com.google.android.gms:play-services-base:17.1.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/f931fb65b7690408bf5b0de860a36b26/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-88
-89        <meta-data
-89-->[com.google.android.gms:play-services-basement:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/8b6b70ef6eb588f383899de577cf601b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-90            android:name="com.google.android.gms.version"
-90-->[com.google.android.gms:play-services-basement:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/8b6b70ef6eb588f383899de577cf601b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-91            android:value="@integer/google_play_services_version" />
-91-->[com.google.android.gms:play-services-basement:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/8b6b70ef6eb588f383899de577cf601b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-92
-93        <provider
-93-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/24fd77da075855e4f433a9910a085b7e/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
-94            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-94-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/24fd77da075855e4f433a9910a085b7e/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
-95            android:authorities="com.example.mycheckins.lifecycle-process"
-95-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/24fd77da075855e4f433a9910a085b7e/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
-96            android:exported="false"
-96-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/24fd77da075855e4f433a9910a085b7e/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
-97            android:multiprocess="true" />
-97-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/24fd77da075855e4f433a9910a085b7e/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
-98    </application>
-99
-100</manifest>
+44        android:theme="@style/AppTheme" >
+44-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:35:9-40
+45
+46        <!--
+47             The API key for Google Maps-based APIs is defined as a string resource.
+48             (See the file "res/values/google_maps_api.xml").
+49             Note that the API key is linked to the encryption key used to sign the APK.
+50             You need a different API key for each encryption key, including the release key that is used to
+51             sign the APK for publishing.
+52             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+53        -->
+54        <meta-data
+54-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:46:9-48:55
+55            android:name="com.google.android.geo.API_KEY"
+55-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:47:13-58
+56            android:value="@string/google_maps_key" />
+56-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:48:13-52
+57
+58        <activity android:name="com.example.mycheckins.WebViewActivity" />
+58-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:50:9-53
+58-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:50:19-50
+59        <activity android:name="com.example.mycheckins.MainActivity" >
+59-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:51:9-57:20
+59-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:51:19-47
+60            <intent-filter>
+60-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:52:13-56:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:53:17-69
+61-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:53:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:55:17-77
+63-->/Users/sandeep/MyCheckIns/app/src/main/AndroidManifest.xml:55:27-74
+64            </intent-filter>
+65        </activity>
+66        <activity
+66-->[com.google.android.gms:play-services-auth:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/b16bf037f33c6d17b04da60b79051772/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+67            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+67-->[com.google.android.gms:play-services-auth:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/b16bf037f33c6d17b04da60b79051772/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+68            android:excludeFromRecents="true"
+68-->[com.google.android.gms:play-services-auth:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/b16bf037f33c6d17b04da60b79051772/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-auth:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/b16bf037f33c6d17b04da60b79051772/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->[com.google.android.gms:play-services-auth:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/b16bf037f33c6d17b04da60b79051772/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+71        <!--
+72            Service handling Google Sign-In user revocation. For apps that do not integrate with
+73            Google Sign-In, this service will never be started.
+74        -->
+75        <service
+75-->[com.google.android.gms:play-services-auth:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/b16bf037f33c6d17b04da60b79051772/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+76            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+76-->[com.google.android.gms:play-services-auth:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/b16bf037f33c6d17b04da60b79051772/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+77            android:exported="true"
+77-->[com.google.android.gms:play-services-auth:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/b16bf037f33c6d17b04da60b79051772/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+78            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+78-->[com.google.android.gms:play-services-auth:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/b16bf037f33c6d17b04da60b79051772/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+79        <uses-library
+79-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/978cb500d184186a368a14234d4eb010/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+80            android:name="org.apache.http.legacy"
+80-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/978cb500d184186a368a14234d4eb010/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+81            android:required="false" />
+81-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/978cb500d184186a368a14234d4eb010/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+82
+83        <activity
+83-->[com.google.android.gms:play-services-base:17.1.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/f931fb65b7690408bf5b0de860a36b26/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+84            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+84-->[com.google.android.gms:play-services-base:17.1.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/f931fb65b7690408bf5b0de860a36b26/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+85            android:exported="false"
+85-->[com.google.android.gms:play-services-base:17.1.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/f931fb65b7690408bf5b0de860a36b26/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+86-->[com.google.android.gms:play-services-base:17.1.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/f931fb65b7690408bf5b0de860a36b26/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+87
+88        <meta-data
+88-->[com.google.android.gms:play-services-basement:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/8b6b70ef6eb588f383899de577cf601b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+89            android:name="com.google.android.gms.version"
+89-->[com.google.android.gms:play-services-basement:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/8b6b70ef6eb588f383899de577cf601b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+90            android:value="@integer/google_play_services_version" />
+90-->[com.google.android.gms:play-services-basement:17.0.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/8b6b70ef6eb588f383899de577cf601b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+91
+92        <provider
+92-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/24fd77da075855e4f433a9910a085b7e/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+93            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+93-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/24fd77da075855e4f433a9910a085b7e/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+94            android:authorities="com.example.mycheckins.lifecycle-process"
+94-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/24fd77da075855e4f433a9910a085b7e/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+95            android:exported="false"
+95-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/24fd77da075855e4f433a9910a085b7e/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+96            android:multiprocess="true" />
+96-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/sandeep/.gradle/caches/transforms-2/files-2.1/24fd77da075855e4f433a9910a085b7e/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+97    </application>
+98
+99</manifest>
